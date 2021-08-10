@@ -11,3 +11,98 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.circuloRojo{
+    
+     width:100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  //  text-align:center;
+    border-color: red;
+    background-color: red;
+    //display: block;
+
+}
+
+.circuloAmarillo{
+    
+     width:100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+   // text-align:center;
+    border-color:yellow;
+    background-color:yellow;
+   // display: block;
+
+}
+.circuloVerde{
+    
+     width:100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+   // text-align:center;
+    align-items: center;
+    border-color:green;
+    background-color:#008000;
+    //display: block;
+    padding-left: 5px;
+}
+.rectangulo {
+     width: 170px; 
+     height: 320px; 
+     border: 3px solid black;
+     background: black;
+     display: inline-block;
+     padding:10px;
+     margin:auto;
+     //text-align: center;
+}
+.resplandorAmarillo{
+  box-shadow: 0px 0px 9px 4px blue;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+   // text-align:center;
+    border-color:yellow;
+    background-color:yellow;
+   // display: block;
+
+}
+
+
+
+.resplandored{
+    box-shadow: 0px 0px 9px 4px blue;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    //text-align:center;
+    border-color: red;
+    background-color: red;
+    //display: block;
+
+}
+
+.resplandorVerde{
+  box-shadow: 0px 0px 9px 4px blue;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    //text-align:center;
+    border-color:green;
+    background-color:green;
+    //display: block;
+
+}
+
