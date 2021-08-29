@@ -10,6 +10,7 @@ const Home = () => {
 	const [color, setColor] = useState("circuloAmarillo");
 	const [color2, setColor2] = useState("circuloRojo");
 	const [color3, setColor3] = useState("circuloVerde");
+	const [opened, setOpened] = useState(true);
 
 	//console.log(color2);
 	//console.log(color);
@@ -19,17 +20,26 @@ const Home = () => {
 			<div className="rectangulo">
 				<div
 					className={color2}
-					onClick={() => setColor2("resplandored")}></div>
+					onClick={() => {
+						setColor2("resplandored"),
+							setColor("circuloAmarillo"),
+							setColor3("circuloVerde");
+					}}></div>
 
 				<div
 					className={color}
-					onClick={() => setColor("resplandorAmarillo")}></div>
+					onClick={() => {
+						setColor("resplandorAmarillo"),
+							setColor2("circuloRojo"),
+							setColor3("circuloVerde");
+					}}></div>
 				<div
 					className={color3}
-					onClick={
-						() => setColor3("resplandorVerde")
-						//alert ("hola")
-					}></div>
+					onClick={() => {
+						setColor3("resplandorVerde"),
+							setColor("circuloAmarillo"),
+							setColor2("circuloRojo");
+					}}></div>
 			</div>
 		</div>
 	);
