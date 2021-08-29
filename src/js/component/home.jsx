@@ -10,7 +10,7 @@ const Home = () => {
 	const [color, setColor] = useState("circuloAmarillo");
 	const [color2, setColor2] = useState("circuloRojo");
 	const [color3, setColor3] = useState("circuloVerde");
-	const [opened, setOpened] = useState(true);
+	
 
 	//console.log(color2);
 	//console.log(color);
